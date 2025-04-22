@@ -11,8 +11,10 @@ from langchain_core.prompts import (
 )
 
 # Set up the Streamlit UI
-st.title(":brain: AI Chatbot with Ollama & Langchain")
-st.write("A simple chatbot using Ollama and LangChain.")
+st.title(":woman-swimming: Swimming Training Planner")
+st.write("Chatbot with Ollama & Langchain")
+st.write("Ask me anything about swimming training, and I'll provide you with the best advice based on the knowledge base.")
+st.write("Stay on track with your swimming goals! This AI-driven planner helps structure your training schedule, balancing endurance, technique, and strength for optimal progress. Stay motivated, disciplined, and efficient on your journey to success.")
 
 
 # Load knowledge base from Python file
