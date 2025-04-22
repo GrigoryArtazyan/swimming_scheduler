@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/776761856607619072/64568e14d2ef45739c90078e60089100/artifacts
+end_time: 1742825768508
+entry_point_name: ''
+experiment_id: '776761856607619072'
+lifecycle_stage: active
+run_id: 64568e14d2ef45739c90078e60089100
+run_name: treasured-horse-965
+run_uuid: 64568e14d2ef45739c90078e60089100
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742825757235
+status: 3
+tags: []
+user_id: grigoryartazyan
