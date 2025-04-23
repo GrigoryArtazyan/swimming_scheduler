@@ -18,6 +18,9 @@ for workout in swim_workouts:
     prompt = workout.get('prompt', 'No prompt provided')
     response = workout.get('response', 'No response provided')
     formatted_data.append(to_alpaca_format(prompt, response))
-
-# Print one example to test
-print(formatted_data[0])  # Print the first formatted example
+    # Save the formatted data to a new file
+with open('formatted_swim_workouts.txt', 'w') as output_file:
+        for item in formatted_data:
+            output_file.write(item + "\n\n")  
+            # Add double newlines between entries
+            
